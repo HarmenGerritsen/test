@@ -1,44 +1,91 @@
 header {           /*banner*/
-  padding: 60px;
+  padding-bottom: 300px;
+  padding-top: 20px;
   background-image: url("images/banner-background3.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
-  width: auto;
-}
-.container2 {
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  background: #242424;
-  opacity: 85%;
 }
 h1 {
   font-family: Consolas, monospace;
   font-size: 125px;
   text-align: center;
-  color: #eeeeee;
+  color: #ffffff;
   font-stretch: ultra-condensed;
   font-weight: 100;
-  background: url(images/banner-background3.jpg) no-repeat; /*making text transparent*/
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .container {       /*text container*/
   width: auto;
   height: auto;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
-  padding: 100px;
-  background-color: #bcbcbc;
-  color: #242424;
+  padding: 50px 100px 100px;
+  color: #1d1d1d;
   font-family: Verdana, serif;
+  background-color: #d4d4d4;
 }
+.floated {
+  float: left;
+  margin-right: 25px ;
+}
+footer {
+  width: auto;
+  height: 400px;
+  background-image: url("images/container-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.separator {
+  height: 125px;
+  margin-top: calc(375px * -1);
+  background-image: linear-gradient(to bottom left, transparent, transparent 50%, #ffffff 50%, #ffffff);
+  opacity: 50%;
+}
+.separator2 {
+  height: 125px;
+  background-image: linear-gradient(to top right, transparent, transparent 50%, #ffffff 50%, #ffffff);
+  opacity: 50%;
+}
+.separator3 {
+  height: 125px;
+  margin-top: calc(175px * -1);
+  background-image: linear-gradient(to bottom left, transparent, transparent 50%, #ffffff 50%, #ffffff);
 
+}
+.separator4 {
+  height: 125px;
+  background-image: linear-gradient(to top right, transparent, transparent 50%, #ffffff 50%, #ffffff);
+}
+.separator5 {
+  height: 125px;
+  margin-top: calc(175px * -1);
+  background-image: linear-gradient(to bottom left, transparent, transparent 50%, #d4d4d4 50%, #d4d4d4);
 
+}
+.separator6 {
+  height: 125px;
+  background-image: linear-gradient(to top right, transparent, transparent 50%, #d4d4d4 50%, #d4d4d4);
+}
+.separator7 {
+  height: 125px;
+  margin-top: calc(125px * -1);
+  background-image: linear-gradient(to bottom left, transparent, transparent 50%, #ffffff 50%, #ffffff);
+}
+.separator8 {
+  height: 125px;
+  background-image: linear-gradient(to top right, transparent, transparent 50%, #ffffff 50%, #ffffff);
+}
+.separator9 {
+  height: 125px;
+  margin-top: calc(125px * -1);
+  background-image: linear-gradient(to bottom left, transparent, transparent 50%, #ffffff 50%, #ffffff);
+  opacity: 50%;
+}
+.separator10 {
+  height: 125px;
+  background-image: linear-gradient(to top right, transparent, transparent 50%, #ffffff 50%, #ffffff);
+  opacity: 50%;
+}
 body {
-  background-color: #efefef;
+  background-color: #ffffff;
   margin: 0; /*removes body edge*/
 }
 
