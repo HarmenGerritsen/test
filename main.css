@@ -1,0 +1,35 @@
+.header {           /*banner*/
+  padding: 100px;
+  text-align: center;
+  background-image: url("images/banner-background2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #242424;
+  text-shadow: 1px 1px #565656;
+  font-size: 35px;
+  display: block;
+  font-family: Verdana, serif;
+  width: auto;
+}                 /*text container*/
+.container {
+  width: auto;
+  height: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  padding: 100px;
+  background-color: #f6f6f6;
+  color: #242424;
+  font-family: Verdana, serif;
+}
+
+
+body {
+  background-color: #000000;
+  margin: 0; /*removes body edge*/
+}
+
+/*colour scheme: banner white: #c1c1c1
+                 text black: #242424
+                 background black: #545454
+ */
