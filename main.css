@@ -1,31 +1,44 @@
-.header {           /*banner*/
-  padding: 100px;
-  text-align: center;
-  background-image: url("images/banner-background2.jpg");
+header {           /*banner*/
+  padding: 60px;
+  background-image: url("images/banner-background3.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color: #242424;
-  text-shadow: 1px 1px #565656;
-  font-size: 35px;
   display: block;
-  font-family: Verdana, serif;
   width: auto;
-}                 /*text container*/
-.container {
+}
+.container2 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: #242424;
+  opacity: 85%;
+}
+h1 {
+  font-family: Consolas, monospace;
+  font-size: 125px;
+  text-align: center;
+  color: #eeeeee;
+  font-stretch: ultra-condensed;
+  font-weight: 100;
+  background: url(images/banner-background3.jpg) no-repeat; /*making text transparent*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {       /*text container*/
   width: auto;
   height: auto;
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
   padding: 100px;
-  background-color: #f6f6f6;
+  background-color: #bcbcbc;
   color: #242424;
   font-family: Verdana, serif;
 }
 
 
 body {
-  background-color: #000000;
+  background-color: #efefef;
   margin: 0; /*removes body edge*/
 }
 
